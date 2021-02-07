@@ -9,7 +9,7 @@ Create a Heroku app as normal, with any buildpacks you typically use.
 Then:
 
 ```bash
-$ heroku buildpacks:add https://github.com/vidbme/heroku-tor.git
+$ heroku buildpacks:add https://github.com/hidenobu-arai/heroku-tor.git
 ```
 
 With the buildpack installed, you'll need to modify your Procfile such that
